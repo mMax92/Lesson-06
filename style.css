@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+li {
+    display: inline-block;
+    width: 400px;
+    height: 521px;
+    background-color: white;
+    margin: 4px 4px 8px 4 px;
+    vertical-align: baseline;
+    border: 0px solid black;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.images {
+    margin: 8px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.description {
+    margin: 8px;
+    height: 64px;
+    overflow: scroll;
+}
+
+.price {
+    font-size: 30px;
+    color: coral;
+    margin: 8px;
+}
+
+.add-to-bin a {
+    display: inline-block;
+    background-color: rgba(0, 128, 0, 0.411);
+    color: white;
+    margin: 8px;
+    margin-top: 0px;
+    padding: 4px;
+    border-radius: 4px;
+    text-align: center;
+}
