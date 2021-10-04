@@ -1,12 +1,11 @@
 * {
     box-sizing: border-box;
-    
 }
 
 li {
     display: inline-block;
     width: 400px;
-    height: 521px;
+    height: 490px;
     background-color: white;
     margin: 4px 4px 8px 4 px;
     vertical-align: baseline;
@@ -35,7 +34,7 @@ img {
 }
 
 .price {
-    font-size: 30px;
+    font-size: 28px;
     color: coral;
     margin: 8px;
 }
@@ -44,8 +43,7 @@ img {
     display: inline-block;
     background-color: rgba(0, 128, 0, 0.411);
     color: white;
-    margin: 8px;
-    margin-top: 0px;
+    margin: 8px 8px 8px 64px;
     padding: 4px;
     border-radius: 4px;
     text-align: center;
