@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
+
 }
 
 li {
     display: inline-block;
     width: 400px;
     height: 490px;
+    line-height: 133%;
     background-color: white;
     margin: 4px 4px 8px 4 px;
     vertical-align: baseline;
@@ -43,11 +45,17 @@ img {
 }
 
 .add-to-bin a {
-    display: inline-block;
-    background-color: rgba(0, 128, 0, 0.411);
+    display: block;
+    background-color: green;
     color: white;
-    margin: 8px 8px 8px 64px;
-    padding: 4px;
+    margin: 8px 8px 8px 8px;
+    padding: 12px 16px;
     border-radius: 4px;
     text-align: center;
+    text-decoration: none;
+}
+
+.buy {
+    display: flex;
+    justify-content: space-between;
 }
